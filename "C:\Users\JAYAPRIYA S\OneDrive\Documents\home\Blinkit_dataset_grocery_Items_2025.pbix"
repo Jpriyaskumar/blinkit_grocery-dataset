@@ -1,0 +1,3 @@
+TotalRevenue = SUMX(GroceryData, GroceryData[Price] * GroceryData[Quantity])
+AvgDeliveryTime = AVERAGE(GroceryData[DeliveryTime])
+RepeatCustomerRate = CALCULATE(DISTINCTCOUNT(GroceryData[CustomerID]), FILTER(GroceryData, GroceryData[OrderCount] > 1))
