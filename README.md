@@ -1,0 +1,11 @@
+The dataset includes the following fields:
+- OrderID: Unique identifier for each order
+- ProductName: Grocery item name
+- Category: Product category (e.g., Fruits, Snacks, Dairy)
+- Price: Price per unit
+- Quantity: Units ordered
+- OrderDate: Date of order
+- DeliveryTime: Time taken to deliver (in minutes)
+- Outlet: Blinkit outlet name/location
+- CustomerID: Unique customer identifier
+- Rating: Customer rating (1–5)
